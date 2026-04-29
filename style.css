@@ -8,7 +8,7 @@ body {
 }
 main {
   margin: 2em;
-  padding: 5px;
+  padding: 3vh;
   border: 2px dashed white;
   min-width: auto;
 }
@@ -67,8 +67,11 @@ nav {
   "home3 home4"
   "home5 home6";
 }
+.ic {
+  padding:0vh 1vh;
+}
 .contents{ 
-  align-items: center;
+  text-align: center;
 }
 .homeimg {
   margin: 3vh;
@@ -77,4 +80,10 @@ nav {
 }
 .othertext {
   margin: 3vh;
+}
+.external {
+  color: white;
+}
+.external:visited {
+  color:white;
 }
