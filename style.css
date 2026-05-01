@@ -45,7 +45,7 @@ header {
   margin-left: 8vh;
   margin-top: 1vh;
 }
-#headerimg {
+.headerimg {
   margin: auto;
   width: 100vw;
 }
@@ -99,8 +99,8 @@ footer {
   margin-top: 5vh;
 }
 .portrait {
-  width: 10px;
+  width: 20vh;
 }
 .landscape {
-  width: 500px;
+  width: 50vw;
 }
