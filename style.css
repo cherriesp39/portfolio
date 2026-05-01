@@ -60,6 +60,7 @@ nav {
   background-color: rgb(254, 255, 222);
 }
 h2 {
+  margin-top: 2rem;
   text-align: center;
 }
 #gallery {
@@ -74,6 +75,9 @@ h2 {
 }
 .ic {
   padding:0vh 1vh;
+}
+.icontain {
+  margin-bottom: 1rem;
 }
 .contents{ 
   text-align: center;
@@ -99,8 +103,11 @@ footer {
   margin-top: 5vh;
 }
 .portrait {
-  width: 20vh;
+  width: 30vh;
 }
 .landscape {
-  width: 50vw;
+  width: 70vw;
+}
+p {
+  padding: 1rem;
 }
