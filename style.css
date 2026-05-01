@@ -2,7 +2,7 @@ html {
   font-family: "Courier-Prime", Courier, monospace;
 }
 body {
-  background: linear-gradient(150deg, rgb(36, 37, 52) 50%, rgb(36, 32, 55) 75%);
+  background-color:rgb(22, 25, 49);
   color: white;
   font-size: 16px;
 }
@@ -13,10 +13,10 @@ main {
   min-width: auto;
 }
 a {
-  color:rgb(3, 29, 99)
+  color:rgb(0, 31, 115)
 }
 a:visited {
-  color: rgb(113, 7, 179);
+  color: rgb(93, 16, 142);
 }
 li {
   padding: 1vh;
@@ -30,13 +30,13 @@ h1 {
 }
 header {
   position: fixed;
-  background-color: rgb(36, 37, 52);
+  background-color: rgb(27, 24, 30);
   top: 0;
   left: 0;
   width: 100%;
   height: 12vh;
   align-content: center;
-  color: rgb(222, 244, 255);
+  color: rgb(228, 249, 255);
 }
 #symbol {
   position: fixed;
@@ -46,8 +46,8 @@ header {
   margin-top: 1vh;
 }
 #headerimg {
-  margin-top: 11vh;
-  width: 100%;
+  margin: auto;
+  width: 100vw;
 }
 ul {
   display: flex;
@@ -57,7 +57,10 @@ ul {
   font-weight: bold;
 }
 nav {
-  background-color: rgb(222, 244, 255);
+  background-color: rgb(254, 255, 222);
+}
+h2 {
+  text-align: center;
 }
 #gallery {
   text-align: center;
@@ -66,6 +69,8 @@ nav {
   "home1 home2"
   "home3 home4"
   "home5 home6";
+  align-items: center;
+  padding: 5rem;
 }
 .ic {
   padding:0vh 1vh;
@@ -74,16 +79,28 @@ nav {
   text-align: center;
 }
 .homeimg {
-  margin: 3vh;
   align-self: center;
   border: 3px solid white;
-}
-.othertext {
-  margin: 3vh;
+  max-width: 25vw;
 }
 .external {
   color: white;
 }
 .external:visited {
   color:white;
+}
+footer {
+  border-top: 2px solid white;
+  left: 0;
+  width: 80vw;
+  text-align: center;
+  padding: 2vh;
+  margin: auto;
+  margin-top: 5vh;
+}
+.portrait {
+  width: 10px;
+}
+.landscape {
+  width: 500px;
 }
