@@ -111,19 +111,15 @@ p {
   padding: 1rem;
 }
 .background {
-  display: flex;
   mix-blend-mode: add;
   z-index: -1;
-  position: fixed;
-  align-self: center;
+  position: absolute;
+  align-self: top;
+  opacity: 20%;
 }
 button {
   outline: none;
   background-color: none;
-}
-#lightson .ic {
-  border: 1px solid rgb(22, 25, 49);
-  border-radius: 50%;
 }
 
 .lightmain {
