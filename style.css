@@ -6,17 +6,16 @@ body {
   color: white;
   font-size: 18px;
   margin: 0;
-  background-image: url(./images/bgimg/bgstars.png);
+  background-image: url(./images/bgimg/bgstar.png);
   background-attachment: scroll;
   background-size: 70%;
+  background-blend-mode: screen;
 }
 main {
-  margin: 2em;
   padding: 5vh;
   border: 2px dashed white;
   min-width: auto;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 1rem 7vw 2rem 7vw;
   
 }
 a {
@@ -61,6 +60,7 @@ ul {
 }
 nav {
   background-color: rgb(254, 255, 222);
+  background: linear-gradient(30deg,rgba(230, 216, 174, 1) 0%, rgba(255, 248, 222, 1) 30%, rgba(230, 216, 174, 1) 70%, rgba(255, 248, 222, 1) 100%);
 }
 #lightson {
   border: none;
@@ -89,6 +89,9 @@ h2 {
   "home5 home6";
   align-items: center;
   padding: 2%;
+}
+p {
+  font-weight: 600;
 }
 .ic {
   padding:0vh 1vh;
@@ -140,23 +143,23 @@ p {
 }
 #background1 {
   margin: auto;
-  top: 15vh;
+  top: 18vh;
   left: 3vw;
   z-index: -2;
 }
 #background2 {
-  bottom: 10vh;
+  bottom: 8vh;
   right: 5vw;
   z-index: -3;
 }
-#starsimg {
+/* #starsimg {
   z-index: -1;
   opacity: 80%;
   bottom: 0px;
   width: 100%;
   overflow: hidden;
   background-attachment: scroll;
-}
+} */
 button {
   outline: none;
   background-color: none;
@@ -172,9 +175,9 @@ button {
 .lightmain .homeimg {
   border: 3px solid rgb(22, 25, 49);
 }
-.lightmain .headerimg {
+.lightmain #headerimg {
   border: none;
-  box-shadow: 0px 0px 15px rgb(22, 25, 49);
+  box-shadow: 0px 0px 15px rgb(9, 28, 104);
 }
 .lightmain footer {
   border-top: 2px solid rgb(22, 25, 49);
@@ -182,9 +185,6 @@ button {
 .lightmain .background {
   mix-blend-mode: multiply;
   opacity: 75%;
-}
-.lightmain #starsimg {
-  mix-blend-mode: screen;
 }
 
 #loading {
