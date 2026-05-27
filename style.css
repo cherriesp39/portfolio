@@ -167,10 +167,10 @@ button {
 
 .lightmain {
   background-color: rgb(200, 250, 255);
-  color:black;
+  color:rgb(42, 41, 47);
 }
 .lightmain main {
-  border: 2px dashed rgb(22, 25, 49);
+  border: 2px dashed rgb(14, 30, 154);
 }
 .lightmain .homeimg {
   border: 3px solid rgb(22, 25, 49);
@@ -184,7 +184,7 @@ button {
 }
 .lightmain .background {
   mix-blend-mode: multiply;
-  opacity: 75%;
+  opacity: 70%;
 }
 
 #loading {
