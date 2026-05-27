@@ -5,12 +5,19 @@ body {
   background-color:rgb(22, 25, 49);
   color: white;
   font-size: 18px;
+  margin: 0;
+  background-image: url(./images/bgimg/bgstars.png);
+  background-attachment: scroll;
+  background-size: 70%;
 }
 main {
   margin: 2em;
-  padding: 3vh;
+  padding: 5vh;
   border: 2px dashed white;
   min-width: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  
 }
 a {
   color:rgb(0, 31, 115)
@@ -20,12 +27,13 @@ a:visited {
 }
 li {
   padding: 1vh;
-  transition: scale 0.1s ease;
+  transition: scale 0.15s ease;
 }
 li:hover {
   scale: 1.1;
 }
 h1 {
+  margin: 2vh;
   text-align: center;
 }
 header {
@@ -34,14 +42,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 13vh;
+  height: 12vh;
   align-content: center;
   color: rgb(228, 249, 255);
-  margin: 0;
 }
-.headerimg {
+#headerimg {
   margin: auto;
   width: 100vw;
+  right: 0;
 }
 ul {
   display: flex;
@@ -49,6 +57,7 @@ ul {
   text-align: center;
   justify-content: space-evenly;
   font-weight: bold;
+  margin-top: 0;
 }
 nav {
   background-color: rgb(254, 255, 222);
@@ -56,6 +65,16 @@ nav {
 #lightson {
   border: none;
   background: none;
+}
+#lightonimg {
+  z-index: 3;
+  position: fixed;
+  bottom: 7vh;
+  right: 5vh;
+  transition: scale 0.2s ease;
+}
+#lightonimg:hover {
+  scale: 1.2;
 }
 h2 {
   margin-top: 2rem;
@@ -69,7 +88,7 @@ h2 {
   "home3 home4"
   "home5 home6";
   align-items: center;
-  padding: 5rem;
+  padding: 2%;
 }
 .ic {
   padding:0vh 1vh;
@@ -79,6 +98,10 @@ h2 {
 }
 .contents{ 
   text-align: center;
+}
+.contents p {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 .homeimg {
   align-self: center;
@@ -102,7 +125,7 @@ footer {
   font-size: 16px;
 }
 .portrait {
-  width: 30vh;
+  max-height: 50vh;
 }
 .landscape {
   width: 70vw;
@@ -111,11 +134,28 @@ p {
   padding: 1rem;
 }
 .background {
-  mix-blend-mode: add;
-  z-index: -1;
-  position: absolute;
-  align-self: top;
+  mix-blend-mode: hard-light;
+  position: fixed;
   opacity: 20%;
+}
+#background1 {
+  margin: auto;
+  top: 15vh;
+  left: 3vw;
+  z-index: -2;
+}
+#background2 {
+  bottom: 10vh;
+  right: 5vw;
+  z-index: -3;
+}
+#starsimg {
+  z-index: -1;
+  opacity: 80%;
+  bottom: 0px;
+  width: 100%;
+  overflow: hidden;
+  background-attachment: scroll;
 }
 button {
   outline: none;
@@ -123,7 +163,7 @@ button {
 }
 
 .lightmain {
-  background-color: rgb(208, 249, 255);
+  background-color: rgb(200, 250, 255);
   color:black;
 }
 .lightmain main {
@@ -138,4 +178,22 @@ button {
 }
 .lightmain footer {
   border-top: 2px solid rgb(22, 25, 49);
+}
+.lightmain .background {
+  mix-blend-mode: multiply;
+  opacity: 75%;
+}
+.lightmain #starsimg {
+  mix-blend-mode: screen;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
