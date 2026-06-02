@@ -245,5 +245,12 @@ button {
   .contents p {
   margin-left: 5vw;
   margin-right: 5vw;
-}
+  }
+  #headerimg {
+  margin: auto;
+  height: 80vh;
+  object-fit: cover;
+  overflow: hidden;
+  right: 0;
+  }
 }
