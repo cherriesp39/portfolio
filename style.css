@@ -180,6 +180,7 @@ button {
 .lightmain {
   background-color: rgb(200, 250, 255);
   color:rgb(42, 41, 47);
+  background-image: none;
 }
 .lightmain main {
   border: 2px dashed rgb(14, 30, 154);
