@@ -5,6 +5,7 @@ const flowers = document.getElementById("headerimg");
 var loadScreen = document.getElementById("loading");
 let night = true;
 
+
 window.addEventListener("load", function() {
     loadScreen.style.display = "none"
  }

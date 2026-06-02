@@ -1,5 +1,5 @@
 html {
-  font-family: "Courier-Prime", Courier, monospace;
+  font-family: "Lato", Courier, monospace;
 }
 body {
   background-color:rgb(22, 25, 49);
@@ -17,6 +17,9 @@ main {
   min-width: auto;
   margin: 1rem 7vw 2rem 7vw;
   
+}
+#maincontent {
+  transition: all 0.3s;
 }
 a {
   color:rgb(0, 31, 115)
@@ -91,7 +94,7 @@ h2 {
   padding: 2%;
 }
 p {
-  font-weight: 600;
+  font-weight: 400;
 }
 .ic {
   padding:0vh 1vh;
@@ -127,19 +130,20 @@ footer {
   margin-top: 5vh;
   font-size: 16px;
 }
-#swirl {
-  border-radius: 50%;
+#linktree {
+  /* border-radius: 50%; */
   transition: all 0.2s ease-out;
 }
-#swirl:hover {
+#linktree:hover {
   scale: 1.2;
-  rotate: 12deg;
+  /* rotate: 12deg; */
 }
 .portrait {
   max-height: 60vh;
 }
 .landscape {
   max-width: 50vw;
+  margin-bottom: 0.5rem;
 }
 p {
   padding: 1rem;
@@ -179,6 +183,9 @@ button {
 }
 .lightmain main {
   border: 2px dashed rgb(14, 30, 154);
+}
+.lightmain a {
+  color: rgb(37, 48, 143);
 }
 .lightmain .homeimg {
   border: 3px solid rgb(22, 25, 49);
